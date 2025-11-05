@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    background-color: darkgreen;
+}
+
+.mainBody{
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chessBoard{
+    background-color: brown;
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+.whiteBrick{
+    background-color: aliceblue;
+    width: 60px;
+    height: 60px;
+    margin: 0;
+}
+
+.blackBrick{
+    background-color: black;
+    width: 60px;
+    height: 60px;
+    margin: 0;
+}
