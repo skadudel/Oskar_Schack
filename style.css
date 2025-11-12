@@ -26,6 +26,11 @@ body{
     padding: 0;
 }
 
+.blank{
+    width: 500px;
+    height: 10px;
+}
+
 .whiteBrick{
     background-color: white;
     width: 60px;
