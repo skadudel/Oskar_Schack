@@ -1,0 +1,24 @@
+#gameboard {
+    padding: 10px;
+    width: 480px;
+    height: 480px;
+    background-color: navy;
+    display: flex;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.square{
+    height: 60px;
+    width: 60px;
+}
+
+.beige{
+    background-color: beige;
+}
+
+.brown{
+    background-color: maroon;
+}
