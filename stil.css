@@ -20,7 +20,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: black;
+    /* color: black; */
 }
 
 #gameboard {
@@ -44,9 +44,9 @@ body {
 }
 
 .square svg{
-    height: 50px;
-    width: 50px;
-    margin: 5px;
+    height: 60px;
+    width: 60px;
+    margin: 0px;
 }
 
 .beige{
@@ -57,9 +57,10 @@ body {
     background-color: maroon;
 }
 
-/* .black{
-    fill: blue;
-} */
+.black {
+    fill: blue!important;
+    background-color: blue;
+}
 
 p{
     display: flex;
