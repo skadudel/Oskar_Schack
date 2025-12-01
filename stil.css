@@ -1,3 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: darkgreen; */
+}
+
+body {
+    background-color: darkgreen;
+}
+
+.chessGoof{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3px;
+    font-size: xx-large;
+}
+
+.allDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
 #gameboard {
     padding: 10px;
     width: 480px;
@@ -15,10 +40,27 @@
     width: 60px;
 }
 
+.square svg{
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+}
+
 .beige{
-    background-color: beige;
+    background-color: white;
 }
 
 .brown{
     background-color: maroon;
+}
+
+/* .black{
+    fill: blue;
+} */
+
+p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3px;
 }
