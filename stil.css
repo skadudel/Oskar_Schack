@@ -57,9 +57,13 @@ body {
     background-color: maroon;
 }
 
-.black {
+.white {
     fill: blue!important;
-    background-color: blue;
+    background-color: beige;
+}
+
+.black{
+    fill: black;
 }
 
 p{
