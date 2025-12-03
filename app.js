@@ -41,7 +41,7 @@ function createBoard(){
 
 createBoard()
 
-const allSquares = document.querySelectorAll("#gameboard.square")
+const allSquares = document.querySelectorAll("#gameboard .square")
 
 allSquares.forEach(square => {
     square.addEventListener('dragstart', dragStart)

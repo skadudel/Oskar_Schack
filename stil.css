@@ -8,12 +8,17 @@ body {
     background-color: darkgreen;
 }
 
+a{
+    color: crimson;
+}
+
 .chessGoof{
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 3px;
     font-size: xx-large;
+    font-weight: bold;
 }
 
 .allDiv{
@@ -21,6 +26,82 @@ body {
     justify-content: center;
     align-items: center;
     /* color: black; */
+}
+
+.flagbearer-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.italy{
+    width: 306px;
+    height: 156px;
+    background-color: black;
+    display: flex;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+.greenItaly{
+    width: 100px;
+    height: 150px;
+    background-color: green;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-left: 3px;
+}
+
+.whiteItaly{
+    width: 100px;
+    height: 150px;
+    background-color: white;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.redItaly{
+    width: 100px;
+    height: 150px;
+    background-color: red;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-right: 3px;
+}
+
+.French{
+    width: 306px;
+    height: 156px;
+    background-color: black;
+    display: flex;
+    margin-right: 50px;
+}
+
+.blueFrench{
+    width: 100px;
+    height: 150px;
+    background-color: blue;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-left: 3px;
+}
+
+.whiteFrench{
+    width: 100px;
+    height: 150px;
+    background-color: white;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.redFrench{
+    width: 100px;
+    height: 150px;
+    background-color: red;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-right: 3px;
 }
 
 #gameboard {
@@ -71,4 +152,64 @@ p{
     align-items: center;
     justify-content: center;
     margin: 3px;
+}
+
+.flagbearer-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Österike{
+    width: 306px;
+    height: 156px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.redÖsterike{
+    width: 300px;
+    height: 50px;
+    background-color: red;
+}
+
+.whiteÖsterike{
+    width: 300px;
+    height: 50px;
+    background-color: white;
+}
+
+.Tyskland{
+    width: 306px;
+    height: 156px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+    flex-direction: column;
+}
+
+.svartTyskland{
+    width: 300px;
+    height: 50px;
+    background-color: black;
+}
+
+.rödTyskland{
+    width: 300px;
+    height: 50px;
+    background-color: red;
+}
+
+.gulTyskland{
+    width: 300px;
+    height: 50px;
+    background-color: yellow;
 }
